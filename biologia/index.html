@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Diario De Bordo</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="../images/virk.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="../css/asss.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/bu.css" />
+  <link rel="stylesheet" type="text/css" href="../css/personal.css">
+  <script async type="text/javascript" src="../js/b.js"></script>
+</head>
+<style>
+  :root{
+  background-color: rgba(179, 214, 170, 0.274);
+::-webkit-scrollbar{height:10px;width:10px}::-webkit-scrollbar-track{background:#053319;border-radius:6px}::-webkit-scrollbar-thumb{background:#3d5537;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#3e0000}
+}
+  ::selection{color: rgb(72, 72, 139); background-color:black;}
+</style>
+<body>
+
+  <nav class="navbar is-link is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">
+          <span class="icon">
+            <i class="fas fa-info"></i>
+          </span>
+          <span>Proposta</span>
+        </a>
+        <a class="navbar-item" href="#resume">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>PDF</span>
+        </a>
+        <a class="navbar-item" href="aulas.html" onclick="ver3()">
+          <span class="icon">
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span>Aulas</span>
+        </a>
+        <a class="navbar-item" href="#Leiame">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Leia-me</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-link is-fullheight is-fullheight-with-navbar">
+    <div class="hero-body">
+        <h1 class="title is-1">
+          <td>Diário de Bordo</td>
+          <td>De Biologia</td>
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+
+    <div class="section-heading">
+      <h3 class="title is-2">Proposta</h3>
+      <h4 class="subtitle is-5">Diário de Bordo</h4>
+      <div class="container">
+        <p>Nesse semestre teremos <strong>2 diários de bordo</strong>, e eles
+          servem para <strong>registrar</strong> os conteúdos passados
+          durante as aulas, assim esse <strong>site</strong> tem o intuito de trazer resumos, 
+          desenhos e esquemas para tornar o trabalho mais 
+          completo.</p>
+      </div>
+    </div>
+
+    <div class="columns has-same-height is-gapless">
+      <div class="column">
+        <!-- Profile -->
+        <div class="card">
+          <div class="card-content">
+            <h3 class="title is-4">Participantes</h3>
+
+            <div class="content">
+              <table class="table-profile">
+                <tr>
+                  <th colspan="1"></th>
+                  <th colspan="2"></th>
+                </tr>
+                <tr>
+                  <td  onclick="funcao1()">Victor Sales Daniel</td>
+                </tr>
+                <tr>
+                  <td>Samuel Riviera De Lima</td>
+                </tr>
+                <tr>
+                  <td>Felipe Sant'Anna Kraemer</td>
+                </tr>
+                <tr>
+                  <td>Andriy Iran Lameira Bezerra</td>
+                </tr>
+                <tr>
+                  <td>Joao Gabriel De Abreu Vieira Cavalari</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+  </section>
+  <section>
+  <div class="columns has-same-height is-gapless">
+    <div class="column">
+
+      <div class="card">
+        <div class="card-content">
+          <h3 class="title is-4">Professor</h3>
+
+          <div class="content">
+            <table class="table-profile">
+              <tr>
+                <th colspan="1"></th>
+                <th colspan="2"></th>
+              </tr>
+              <tr>
+                <td  onclick="funcao3()">Mário Cesar Sedrez</td>
+                <td>Professor de Biologia</td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>mario.sedrez@ifsc.edu.br</td>
+              </tr>
+            </table>
+            </div>
+            <br>
+            <div class="buttons has-addons is-centered">
+              <a href="http://lattes.cnpq.br/0163565755386017" class="button is-link">Currículo Lattes</a>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+
+      <div class="card">
+        <div class="card-image">
+            <img src="images/Mario.jpg" width="192"onClick="alert('Doutorado Sanduíche em Ecologia e Recursos Naturais pela Universidade Federal de São Carlos - UFSCar, São Carlos/SP e Universidade dos Açores - UAC, Portugal (2017); Mestrado em Ciência e Tecnologia Ambiental pela Universidade do Vale de Itajaí - UNIVALI, Itajaí, Santa Catarina (2012); Especialização em Biologia Geral pela Fundação Severino Sombra, Vassouras, Rio de Janeiro (1989); Graduação em Ciências Biológicas pela Fundação Universidade Regional de Blumenau - FURB, Blumenau, Santa Catarina (1987) e Graduação em Ciências pela Fundação Educacional de Brusque - FEBE, Brusque, Santa Catarina (1984). Professor do Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina (IFSC), desde 2011.');"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="resume">
+    <div class="section-heading">
+      <h3 class="title is-2">Aulas</h3>
+      <h4 class="subtitle is-5">Cleque no Botão<br>
+        para
+        <br>
+        ver as Aulas
+      </h4>
+      <a onclick="ver1()" href="aulas.html" class="button is-link is-medium">
+        <span class="icon">
+          <i class="fas fa-file-alt"></i>
+        </span>
+        <span>Ver Aulas</span>
+      </a>
+    </div>
+  </section>
+
+  <!--<section class="section" id="resume">
+    <div class="section-heading">
+      <h3 class="title is-2">PDF</h3>
+      <h4 class="subtitle is-5">Baixe o diario em PDF</h4>
+      <td>Em produção</td>
+      <br>
+      <td>Link vazio</td>
+      <br>
+      <a onclick="pingItjs(ipAddress)" class="button is-link is-medium">
+        <span class="icon">
+          <i class="fas fa-file-alt"></i>
+        </span>
+        <span>Baixar PDF</span>
+      </a>
+    </div>
+  </section>-->
+  <section class="section" id="Leiame">
+    <div class="section-heading">
+      <br>
+      <a href="../ReadMe.html" class="button is-link is-medium">
+        <span class="icon">
+          <i class="fas fa-file-alt"></i>
+        </span>
+        <span>Leia-me</span>
+      </a>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="section-heading">
+      <p>
+        <strong><a href="template aulas.html"><strong>Diario de bordo</strong></a> Por <a href="https://github.com/Virk8">virk</a> Licença
+        <a href="../license.html">MIT</a>.
+      </p>
+</div></footer></body><script>function ver1() {alert("Redirecionando para ver aulas");};function funcao1(){var r=prompt("digite...");if (r=="vacina"){window.location = "../../a/"}else{alert("Hello World");}};function funcao3(){var u=prompt("Digite algo");if (u=="salamaleco"){window.location = "../a/quimica.html"}else{alert("Hello World");}}</script>
+</html>
